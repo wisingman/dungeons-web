@@ -1,8 +1,8 @@
 # Dungeons-Web
 
-Dungeons-Web is a web application that provides a user interface to interact with guild data from a private API on the Dungeons Minecraft server. The project displays detailed information about guilds, including their identifiers, owners, levels, associated worlds, and more.
+Dungeons-Web is a web application that provides a user interface to interact with guild data from a private API on my project, a Dungeons Minecraft server. The project displays detailed information about guilds, including their identifiers, owners, levels, associated worlds, and more.
 
-**Note:** This project currently relies on a private API that is not publicly accessible. As a result, it cannot be installed or run successfully by users without access to this API. However, the codebase can be used as a template for similar projects.
+**Note:** This project currently relies on a private API that is not publicly accessible. As a result, it cannot be installed or run successfully by users without access to this API. However, the codebase can be used as a template for similar projects, and an example of my TS work.
 
 ## Features
 

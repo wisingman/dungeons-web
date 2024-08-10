@@ -1,12 +1,12 @@
-"use client";
+"use client";  // Indicates that this component is intended to run on the client-side in a Next.js application
 
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";  // Importing the `useRouter` hook from Next.js for programmatic navigation
 
 export default function HomePage() {
-    const router = useRouter();
+    const router = useRouter();  // Initializing the router to enable navigation within the app
 
     const handleClick = () => {
-        router.push("/guilds");
+        router.push("/guilds");  // Navigates the user to the "/guilds" page when the button is clicked
     }
 
     return (
