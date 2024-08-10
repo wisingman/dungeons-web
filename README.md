@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dungeons-Web
+
+Dungeons-Web is a web application that provides a user interface to interact with guild data from a private API on the Dungeons Minecraft server. The project displays detailed information about guilds, including their identifiers, owners, levels, associated worlds, and more.
+
+**Note:** This project currently relies on a private API that is not publicly accessible. As a result, it cannot be installed or run successfully by users without access to this API. However, the codebase can be used as a template for similar projects.
+
+## Features
+
+- **Guild Overview**: Displays detailed information about guilds, including their identifier, short code, level, owner, and creation date.
+- **World Details**: Lists all worlds associated with each guild, showing location coordinates and other relevant details.
+- **Visitor Access**: Indicates whether visitors are allowed in the guild's world(s).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before exploring the project, ensure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Note:** The API URL provided in .env.default is an example and will not function without access to the private API.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Project Structure
 
-## Learn More
+- **/app**: Contains the main pages and components of the application.
+- **/app/guilds**: Handles the fetching and displaying of guild data.
+- **/app/DungeonAPIRequest.ts**: A utility function that manages API requests to the private Dungeons API.
 
-To learn more about Next.js, take a look at the following resources:
+### API Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application interfaces with a private API provided by the Dungeons Minecraft server to fetch guild data. The API requests are managed using the `DungeonAPIRequest` utility, which handles HTTP methods and responses.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Using This Project as a Template
 
-## Deploy on Vercel
+Although the `Dungeons-Web` project cannot be run without access to the private API, the codebase is a valuable resource for developers looking to build similar applications. You can adapt the structure, components, and API integration techniques for your own projects, whether you're working with a public API or building your own backend.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions to `Dungeons-Web` are welcome! If you find a bug or have a feature request, please open an issue. Feel free to fork the repository and submit a pull request.
+
+### License
+
+This project is licensed under the MIT License.
+
+### Contact
+
+For any inquiries or support, please contact me through Discord (@wising) or at [maxmooredotuk@gmail.com](mailto:maxmooredotuk@gmail.com).
